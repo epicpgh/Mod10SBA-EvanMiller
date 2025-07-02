@@ -1,7 +1,7 @@
 
 
 
-import {useFetch} from "../hooks/useFetch.jsx";
+import {useFetch} from "../hooks/useFetch.js";
 import {useParams} from "react-router-dom";
 import {useFavorites} from "../context/FavoritesContext.jsx";
 

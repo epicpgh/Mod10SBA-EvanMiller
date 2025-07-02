@@ -1,6 +1,6 @@
 
 
-import {useFetch} from '../hooks/useFetch'
+import {useFetch} from '../hooks/useFetch.js'
 import {useParams} from 'react-router-dom'
 import RecipeCard from '../components/RecipeCard'
 
