@@ -1,12 +1,42 @@
-# React + Vite
+# Module 10 SBA Dynamic Recipe App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic, responsive, single-page React application for discovering and saving your favorite meals. Built with the [TheMealDB API](https://www.themealdb.com/api.php), this app showcases advanced React concepts including custom hooks, Context API, routing, and persistent local storage.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Software Used 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (w/ Hooks)
+- React Router DOM
+- JavaScript SW
+- Vite
+
+
+## Folder Structure
+
+```plaintext
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── RecipeCard.jsx
+│   ├── Spinner.jsx
+│   └── ErrorMessage.jsx
+├── context/
+│   └── FavoritesContext.jsx
+├── hooks/
+│   ├── useFetch.js
+│   └── useLocalStorage.js
+├── pages/
+│   ├── Home.jsx
+│   ├── CategoryPage.jsx
+│   ├── RecipeDetailPage.jsx
+│   ├── FavoritesPage.jsx
+│   └── SearchResultsPage.jsx
+├── App.jsx
+└── main.jsx
+
+
+## Lessons Learned
+```plaintext
+
+This project was an enhancement of our exploration of React.  We're building comoponents that will be reusable in future projects, which is really amazing.  There are less punctuation errors overall because so many of the pieces are reusable.  That coupled with gaining more confidence and understanding of the debugging process makes me see a glimmer of hope that I may someday be able to confidently build out these websites with minimal heartache.  It is still overwhelming at times, but as I learn to navigate the equally valuable part of development, which is problem solving and knowing what questions you need to ask, I managed to make an unattractive, but functional project.
